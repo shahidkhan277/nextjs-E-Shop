@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#8B5E3C', // Brownish tone
+        primaryLight: '#D9B89C', // Lighter brownish tone
+        secondary: '#C28766', // Soft matching shade
+        secondaryLight: '#E6D4C3', // Lighter complementary tone
+        lightGray: '#F5F1ED', // Warm light gray
+        darkGray: '#5C5149', // Darker brownish-gray
       },
     },
   },
