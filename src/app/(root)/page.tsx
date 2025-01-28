@@ -3,6 +3,7 @@ import FeaturedProducts from '@/components/FeaturedProducts';
 import HeroSection from '@/components/HeroSection';
 import ProductListingPage from '@/components/ProductListingPage';
 import PromoSection from '@/components/PromoSection';
+import SocialMediaSection from '@/components/SocialMediaSection';
 import React from 'react';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
        endDate="2025-01-31T00:00:00Z"
        />
        <CustomerReviews/>
+       <SocialMediaSection/>
     </>
   );
 }
